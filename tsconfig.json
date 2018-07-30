@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "es2017", "dom"],
+    "target": "es5"
+  },
+  "files": [
+    "angler/index.ts"
+  ]
+}

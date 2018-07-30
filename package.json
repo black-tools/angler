@@ -1,0 +1,22 @@
+{
+  "name": "angler",
+  "version": "0.0.1",
+  "description": "Sequelize auto relational-schema manager",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "nodemon --watch '**/*.ts' --ignore '**/*.spec.ts' --exec 'ts-node' test/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0"
+  }
+}
